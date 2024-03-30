@@ -1,0 +1,58 @@
+# 00
+## STEP
+
+x = x + 2;
+
+if (x > room_width)
+{
+	x = 0;
+}
+
+R: joga o jogador pro começo da room quando ele sai pelo eixo x
+
+# 01
+## CREATE
+
+vel = 2;
+
+## STEP 
+
+x = x + vel;
+
+if (x > room_width + 32)
+{
+	x = -32;
+	vel = vel + 1;
+}
+
+R: joga o jogador para antes da room existir e aumenta a velocidade
+
+# 2
+## create
+vel = 2;
+
+##step
+x += vel;
+
+if (x > room_width - 32)
+{
+	vel = -3;
+}
+if (x < 32)
+{
+	vel = 3;
+}
+
+r: anda com o jogador pra frente até que chegue ao limitede da room -32px e faz com que ele ande para tras,
+e quando for menor que 32, pra frente mais rapido
+
+
+# 3
+
+r: se x for maior que o tamanho da room + 32, ele joga pra antes dela existir e dobra sua velocidade, 
+ate que a velocidade chege a >32 e volta ao seu valor original
+
+
+# 4 
+
+invete o valor da velocidade
