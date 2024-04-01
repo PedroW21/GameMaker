@@ -1,0 +1,50 @@
+# Telas, elementos e fluxo do jogo
+
+- Quantas telas existem no jogo?
+2
+
+- O que são essas telas?
+1) escolha qtd jogador
+2) tela de jogo
+
+- Que elementos compoem essas telas? (pense por telas...)
+1) 2 botoes, jogadores ao fundo, background;
+2) 2 jogadores, background e bolinha
+
+
+- Qual o fluxo do jogo? (Ex..: Home => Mapa (Seleciona Level) => Tela do Level => ...)
+Home => Jogatina => Home
+
+
+# Objetivo, obstaculos e regras
+
+- Qual o objetivo?
+Fazer a bolinha bater no outro lado e vencer o outro jogador
+
+- Que obstaculos estão impedindo o jogador de realizar seu objetivo;
+o jogador ou o sistema;
+
+- Que regras estão definindo como o jogo vai ser jogado? 
+Ex: jogador toca no inimigo e ganha vida, x manteira sera jogada,
+se você perde vida por determinada ação, você jogada outro maneira)
+Ex2: regras para inimigos, player, level (como aquilo vai agir pra influenciar o gameplay)
+Se bolinha bater em algum dos lados, teremos um ponto ganho
+se bolinha bater em algum jogador, será rebatia na direção contrária
+
+
+# Gameplay (experiencia do jogo)
+Ex: como o jogo é jogado, qual a metafora?
+GDD - Game Design Document
+
+Jogador inicia o jogo decidindo se sera solo ou acompanhado,
+apos isso precisa rebater a bolinha na parede inimiga 2x para pode ganhar
+
+
+MELHORIAS
+adicionar power-ups, mais elementos para tornar mais cativante
+
+======================
+
+DRAW SET
+Define em todo o jogo
+-1 para resetar ao valor original
