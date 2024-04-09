@@ -7,7 +7,17 @@ var _is_solar_power = _actual_power == obj_power_solar_been;
 
 if(_is_solar_power) {
 	ship_speed += global.player_ship_speed; 
-	scr_use_power(obj_ship_player,"player");
+	image_blend = global.player_power_color;
+	
+	audio_stop_sound(snd_power_up);
+	audio_play_sound(snd_power_up, 1, false);
+	
+	global.player_power = noone;
+	global.player_power_color = "";	
+	global.player_power_snd = noone;
+	global.player_ship_speed = 0;
+	global.player_missle_speed = 0;
+	
 	exit;
 }
 

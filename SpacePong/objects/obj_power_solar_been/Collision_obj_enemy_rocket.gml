@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 
-if(global.player_power == noone)
+if(global.enemy_power == noone)
 {
 	global.enemy_power = obj_power_solar_been;
 	global.enemy_power_color = obj_power_solar_been.main_color;
